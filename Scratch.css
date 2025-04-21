@@ -1,0 +1,142 @@
+html {
+    scroll-behavior: smooth;
+}
+/* Custom background color */
+body {
+    background-color: #003366;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+    color: #fff; /* or any color you want */
+}
+
+/* Header Style */
+.header {
+    background-color: #fff;
+    color: rgb(19, 14, 14);
+    text-align: center;
+    padding: 20px;
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Navigation Bar */
+.nav {
+    background-color: #FF1744;
+    padding: 10px;
+    text-align: left;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav a:hover {
+    color: black;
+}
+
+/* Main Content Style */
+
+
+.sports-played, .sports-watched {
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 15px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sports-played {
+    background-color: #e0f7fa; /* Light blue for "Played" */
+}
+
+.sports-watched {
+    background-color: #e0f7fa; /* Light orange/peach for "Watched" */
+}
+
+.sports-played h2, .sports-watched h2 {
+    color: #004d40; /* Teal titles */
+    margin-bottom: 10px;
+}
+
+.sports-played ul, .sports-watched ul {
+    list-style-type: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.sports-played ul li, .sports-watched ul li {
+    margin: 8px 0;
+    font-size: 18px;
+    color: #333;
+}
+.main-content {
+    padding: 20px;
+    background-color: #003366;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* Image, Video, and Tableau Styling */
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* adds nice even space between the images */
+    flex-wrap: wrap; /* makes sure it adjusts nicely if screen is small */
+    margin-top: 20px;
+}
+
+.image-gallery img {
+    width: 300px; /* same width */
+    height: 300px; /* force same height */
+    object-fit: cover; /* CROPS the image nicely without squishing */
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+
+.video, .tableau {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.video {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* Style for "Back to Top" link */
+.back-to-top {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back-to-top a {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color: white; /* White normally */
+    transition: color 0.3s ease; /* Optional: smooth color transitions */
+}
+
+.back-to-top a:hover {
+    color: white; /* Keep it white even on hover */
+    text-decoration: underline; /* Just add underline when hovering */
+}
+/* Footer styling */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #FF1744;
+    color: rgb(249, 244, 244);
+    text-align: center;
+}
